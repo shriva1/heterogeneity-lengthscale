@@ -2,7 +2,7 @@
 
 
 
-This repository contains code for analyzing optical data of NMC cathodes using Jupyter notebooks. All datasets (Excel files, images) are available separately on Zenodo.
+This repository contains code for analyzing optical data of NMC cathodes using Jupyter notebooks and Python scripts. All datasets (Excel files, images) are available separately on Zenodo.
 
 
 
@@ -10,11 +10,11 @@ This repository contains code for analyzing optical data of NMC cathodes using J
 
 
 
-notebooks/ – contains Jupyter notebooks for processing and plotting
+code\_files/ : contains Jupyter notebooks and Python scripts for processing and plotting.
 
 
 
-Data files are not included here – see link below
+Data files are **not** included here – see link below
 
 
 
@@ -22,7 +22,7 @@ Data files are not included here – see link below
 
 
 
-Download the data files from Zenodo: \[Zenodo DOI – coming soon]
+Download the data files from Zenodo: \[Zenodo DOI: [10.5281/zenodo.15870101](https://doi.org/10.5281/zenodo.15870101)]
 
 
 
@@ -30,7 +30,17 @@ Place the downloaded files in the same directory as the notebooks.
 
 
 
-Open notebooks/analysis.ipynb and run the cells step-by-step.
+For Python Scripts: Open or code\_files/'....'.py
+
+For Jupyter Notebooks: Open code\_files/'....'.ipynb and run the cells step-by-step. Replace the input file path wherever necessary.
+
+
+
+#### **Requirements**
+
+
+
+For required python libraries, refer to requirements.txt
 
 
 
@@ -38,7 +48,7 @@ Open notebooks/analysis.ipynb and run the cells step-by-step.
 
 
 
-All datasets and images used in this project are hosted at Zenodo:📦 https://doi.org/10.xxxx/zenodo.xxxxxxx
+All datasets and images used in this project are hosted at Zenodo: https://doi.org/10.5281/zenodo.15870101
 
 
 
@@ -46,5 +56,5 @@ All datasets and images used in this project are hosted at Zenodo:📦 https://d
 
 
 
-MIT License – see LICENSE file.
+MIT License – see LICENSE.txt
 
